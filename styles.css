@@ -1,0 +1,109 @@
+* {
+    font-family: 'Edu SA Beginner', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    text-align: center;
+    background-size: 500%;
+    animation:moving 15s infinite;
+  background-image:linear-gradient(50deg, red,cyan,pink,lavender)
+}  
+@keyframes moving{
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+}
+
+
+
+h1 {
+    margin: 20px;
+}
+
+h4 {
+  color: gray;
+  margin-left: 10px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50px;
+  
+}
+
+main {
+   padding-top: 0px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px;
+}
+
+header {
+    display: flex;
+   
+}
+
+.hobby {
+   /* position: absolute;*/
+    top: 250px;
+    left: 7000px;
+}
+
+.IG {
+    size: 1;
+}
+
+.LinksAndOthers {
+    
+    /*margin-left:  1200px;
+   position: relative;
+   bottom: 42px;
+    
+}
+
+.inforamtions {
+    
+    margin-top: 10px;
+}
+
+.links {
+    position: relative;
+    right: 400px;
+    
+}
+
+.link {
+    position: static;
+    margin-bottom: 50px;
+    bottom: 400px;
+    margin-left: 400px;
+    /*top: 200px;*/
+}
+
+.AboutMe {
+   /* position: absolute;
+    top: 250px;*/
+}
+
+.ExperienceAndCertifications {
+    position: relative;
+    
+   
+}
+
